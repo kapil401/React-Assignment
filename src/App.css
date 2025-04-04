@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.prime-card {
+  padding: 45px 100px 46px 100px
+}
+.img-size {
+  position: absolute;
+    top: 151px;
+    /* left: 60px; */
+    right: 100px;
+    background-color: rgb(243 244 246) !important;
+    height: 416px !important;
+    width: 610px !important;
+}
+.img-doctor{
+  position: absolute;
+  bottom: 69px;
+  right: 56px;
+  height: 100px;
+  width: 100px;
+}
+.img-car{
+  position: absolute;
+  bottom: 74px;
+  right: 56px;
+  height: 80px;
+  width: 80px;
+}
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color:white;
+}
+
+.testimonial-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 81%;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+.testimonial-list {
+  display: flex;
+  gap: 87px;
+  justify-content: center;
+}
+.testimonial-card {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 446px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.testimonial-card.highlighted {
+  border: 2px solid #007bff;
+  opacity: 1;
+}
+.testimonial-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.testimonial-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.testimonial-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.testimonial-role {
+  font-size: 12px;
+  color: #777;
+}
+.quote-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #007bff;
+  color: white;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.body-bg{
+  background-color: #F8FDFF;
+}
+.icon-text {
+  margin-right: 29rem !important;
+}
+
+.Subscribe {   
+ background-color: rgb(0, 123, 255);
+  border-radius: 12px;
+  color: white;
+  margin-left: 128px;
+  margin-right: 121px;
+}
