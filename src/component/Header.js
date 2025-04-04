@@ -13,7 +13,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="flex justify-around  text-black  p-4 mb-4 body-bg">
+    <header className="flex justify-around  text-black  p-4  body-bg">
        <a className="navbar-brand text-primary fw-sm icon-text" href="/">Medi<span className="text-warning">Care+</span></a>
       <nav>
         <ul className="flex space-x-4">
